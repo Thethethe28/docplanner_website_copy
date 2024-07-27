@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin: 0px;
+}
+
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.98);
+}
+
+nav {
+  margin: 0px 100.833px;
+  padding: 0px 20px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  width: 268px;
+  height: 33px;
+}
+
+#nav-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 251.63px;
+  height: 69.9px;
+  padding: 19.95px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a-nav {
+  color: #ababab;
+  padding: 0px 9px;
+  font-size: 15px;
+}
+
+.a-nav:hover {
+  color: #00b39b;
+}
+
+.about-us {
+  color: #00b39b;
+}
+
+#acc-sec {
+  margin: 33px 100.833px 60px;
+  padding: 0px 20px;
+}
+
+#acc-sec1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+#acc-img {
+  justify-self: center;
+}
+
+#acc-h1 {
+  justify-self: center;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: 34px;
+  color: #00b39b;
+}
+
+#acc-sec2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#acc-sec2 div {
+  padding: 10px;
+}
+
+#acc-sec2 p {
+  margin: 12.8px 0px;
+  line-height: 1.75;
+  font-weight: 400;
+  box-sizing: content-box;
+  width: 477.500px;
+  height: 112px;
+  font-size: 16px;
+}
+
+#sec-for {
+  margin: 60px 100.833px 40px;
+  padding: 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 338.34);
+}
+
+.sec-forr {
+  width: 331.63px;
+  height: 365px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 10px solid white;
+}
+
+.sec-forr2 {
+  padding: 32px 32px 0px;
+  width: 311.43px;
+  height: 345px;
+}
+
+.patients {
+  background-color: #00ccb1;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
+
+.doctors {
+  background-color: #3d83df;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+
+.clinics {
+  background-color: #1b2734;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+}
+
+.patients, .doctors, .clinics {
+  color: #fff;
+}
+
+.sec-forr2 h1, .sec-forr2 p {
+  font-weight: 400;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+}
+
+.sec-forr2 p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.sec-forr2 h1 {
+  margin: 7.8px 0px;
+}
+
+select {
+  color: #fff;
+  font-size: 19.2px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.patients select {
+  background-color: #00CCb1;
+  margin-top: 95px;
+}
+
+.doctors select {
+  background-color: #3d83df;
+  margin-top: 95px;
+}
+
+.clinics select {
+  background-color: #1b2734;
+  margin-top: 37px;
+}
